@@ -1,0 +1,64 @@
+/* custom.css */
+
+.h2-custom {
+    @apply 2xl:text-large xl:text-medium lg:text-small;
+}
+
+.h3-custom {
+    @apply 2xl:text-medium xl:text-mediumSmall;
+}
+.h4-custom {
+    @apply 2xl:text-mediumSmall;
+}
+.p-custom {
+    @apply 2xl:text-small md:text-xsmall;
+}
+
+.gap-large {
+    @apply 2xl:gap-10 xl:gap-8 lg:gap-6 md:gap-4 sm:gap-2;
+}
+
+.gap-medium {
+    @apply 2xl:gap-5 xl:gap-4 lg:gap-3 md:gap-2;
+}
+
+.custom-margin {
+    @apply 2xl:m-8 xl:m-6 lg:m-4 md:m-3 sm:m-2;
+}
+
+.y-main-padding {
+  @apply 2xl:py-[50px] xl:py-[45px] lg:py-[40px] md:py-[40px] sm:py-[37px];
+}
+
+.l-main-padding {
+  @apply 2xl:pl-[47px] xl:pl-[40px] lg:pl-[37px] md:pl-[30px] sm:pl-[27px];
+}
+
+.x-main-padding {
+  @apply 2xl:px-[47px] xl:px-[40px] lg:px-[37px] md:px-[30px] sm:px-[27px];
+}
+
+
+.oneAndFirstMessageBubbleMe{
+  @apply rounded-tr-2xl rounded-tl-2xl rounded-bl-2xl rounded-br-none;
+}
+
+.oneAndFirstMessageBubbleOther{
+  @apply rounded-tr-2xl rounded-tl-2xl rounded-br-2xl rounded-bl-none;
+}
+
+.middelMessageBubbleMe{
+  @apply rounded-tl-2xl rounded-bl-2xl;
+}
+
+.middelMessageBubbleOther{
+  @apply rounded-tr-2xl rounded-br-2xl;
+}
+
+.lastMessageBubbleMe{
+  @apply rounded-tl-2xl rounded-bl-2xl rounded-br-2xl ;
+}
+
+.lastMessageBubbleOther{
+  @apply rounded-tr-2xl rounded-bl-2xl rounded-br-2xl ;
+}
