@@ -1,6 +1,5 @@
 # Billrswift
 
-Brief description of your project.
 
 ## Table of Contents
 
@@ -11,7 +10,7 @@ Brief description of your project.
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/simon409/billrswift.git
+    git clone https://github.com/simon409/billrswift-web.git
     cd billrswift
     ```
 
